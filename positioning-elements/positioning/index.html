@@ -2,8 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link
       rel="stylesheet"
@@ -12,32 +10,83 @@
       crossorigin="anonymous"
     />
     <style>
-      div {
-        height: 200px;
+      .header {
+        background-color: darkturquoise;
+        height: 40px;
+      }
+      .navigation {
+        height: 40px;
+      }
+      .nav-list {
+        margin: 16px;
+      }
+      li {
+        color: white;
         float: left;
-        width: 20%;
+        line-height: 8px;
+        margin: 16px;
       }
-      .block_red {
-        background-color: red;
+      .content {
+        height: 5000px;
+        background-color: beige;
       }
-      .block_green {
-        background-color: green;
+      .head {
+        height: 200px;
+        width: 200px;
+        background-color: aquamarine;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin: -100px 0 0 -100px;
       }
-      .block_blue {
-        background-color: blue;
+      .ear {
+        height: 60px;
+        width: 40px;
+        background-color: brown;
+        position: absolute;
+        top: -60px;
       }
-      .block_yellow {
-        background-color: yellow;
+
+      .eye {
+        background-color: gray;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        position: absolute;
+        top: 80px;
       }
-      .block_black {
-        background-color: black;
+      .eye_right {
+        right: 40px;
+      }
+      .eye_left {
+        left: 50px;
+      }
+      .ear_right {
+        right: -40px;
+      }
+      .ear_left {
+        left: -40px;
       }
     </style>
   </head>
-  <div class="block_red"></div>
-  <div class="block_green"></div>
-  <div class="block_blue"></div>
-  <div class="block_yellow"></div>
-  <div class="block_black"></div>
-  <body></body>
+
+  <body>
+    <header class="header">
+      <nav class="navigation">
+        <ul class="nav-list">
+          <li class="nav-item">Home</li>
+          <li class="nav-item">Products</li>
+          <li class="nav-item">Contacts</li>
+        </ul>
+      </nav>
+    </header>
+    <main class="content">
+      <div class="head">
+        <div class="ear ear_right"></div>
+        <div class="ear ear_left"></div>
+        <div class="eye eye_right"></div>
+        <div class="eye eye_left"></div>
+      </div>
+    </main>
+  </body>
 </html>
