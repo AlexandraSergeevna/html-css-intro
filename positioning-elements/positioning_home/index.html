@@ -13,24 +13,27 @@
       .header {
         background-color: darkturquoise;
         height: 40px;
-        position: relative;
+        position: absolute;
+        width: 100%;
         top: 0px;
         z-index: 1;
       }
       .navigation {
         height: 40px;
+        position: absolute;
+        width: 100%;
       }
       .nav-list {
-        margin: 16px;
+        line-height: 50%;
+        height: 40px;
       }
       li {
         float: left;
-        line-height: 40px;
         margin-left: 16px;
-      }
-      .nav-list {
         color: white;
+        list-style-type: none;
       }
+
       .content {
         height: 5000px;
         background-color: beige;
@@ -40,7 +43,7 @@
         width: 200px;
         background-color: aquamarine;
         position: fixed;
-
+        top: calc(50% - 200px / 2);
         left: calc(50% - 200px / 2);
       }
       .ear {
