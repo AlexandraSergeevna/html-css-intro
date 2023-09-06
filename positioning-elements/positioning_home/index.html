@@ -13,6 +13,9 @@
       .header {
         background-color: darkturquoise;
         height: 40px;
+        position: relative;
+        top: 0px;
+        z-index: 1;
       }
       .navigation {
         height: 40px;
@@ -21,10 +24,12 @@
         margin: 16px;
       }
       li {
-        color: white;
         float: left;
-        line-height: 8px;
-        margin: 16px;
+        line-height: 40px;
+        margin-left: 16px;
+      }
+      .nav-list {
+        color: white;
       }
       .content {
         height: 5000px;
@@ -35,9 +40,8 @@
         width: 200px;
         background-color: aquamarine;
         position: fixed;
-        top: 50%;
-        left: 50%;
-        margin: -100px 0 0 -100px;
+
+        left: calc(50% - 200px / 2);
       }
       .ear {
         height: 60px;
@@ -45,6 +49,7 @@
         background-color: brown;
         position: absolute;
         top: -60px;
+        z-index: 2;
       }
 
       .eye {
@@ -59,7 +64,7 @@
         right: 40px;
       }
       .eye_left {
-        left: 50px;
+        left: 40px;
       }
       .ear_right {
         right: -40px;
