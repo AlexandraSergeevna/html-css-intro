@@ -10,21 +10,19 @@
       crossorigin="anonymous"
     />
     <style>
+      * {
+        box-sizing: border-box;
+      }
       .header {
         background-color: darkturquoise;
         height: 40px;
-        position: absolute;
+        position: fixed;
         width: 100%;
-        top: 0px;
+
         z-index: 1;
       }
-      .navigation {
-        height: 40px;
-        position: absolute;
-        width: 100%;
-      }
-      
-      
+
+      nav,
       li {
         float: left;
         margin-left: 16px;
@@ -42,7 +40,7 @@
         height: 200px;
         width: 200px;
         background-color: aquamarine;
-        position: fixed;
+        position: absolute;
         top: calc(50% - 200px / 2);
         left: calc(50% - 200px / 2);
       }
@@ -52,7 +50,6 @@
         background-color: brown;
         position: absolute;
         top: -60px;
-        z-index: 2;
       }
 
       .eye {
