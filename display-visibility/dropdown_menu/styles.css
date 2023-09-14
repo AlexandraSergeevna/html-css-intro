@@ -11,6 +11,7 @@
   font-size: 16px;
   opacity: 0.8;
   cursor: pointer;
+  padding: 16px;
 }
 .menu-button:hover {
   opacity: 1;
