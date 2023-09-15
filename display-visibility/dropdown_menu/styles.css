@@ -13,7 +13,6 @@
   cursor: pointer;
   padding: 16px;
   line-height: 100%;
-  position: absolute;
 }
 .menu-button:hover {
   opacity: 1;
@@ -27,7 +26,7 @@
   min-width: 120px;
   z-index: 1;
   display: none;
-  top: 49px;
+  top: 16px;
 }
 .menu-item {
   padding: 16px;
