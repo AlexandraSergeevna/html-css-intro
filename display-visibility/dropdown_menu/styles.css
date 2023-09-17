@@ -23,7 +23,7 @@
   min-width: 120px;
   z-index: 1;
   display: none;
-  top: 67px;
+  bottom: 0px;
 }
 .menu-item {
   padding: 16px;
