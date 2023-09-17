@@ -2,7 +2,6 @@
   box-sizing: border-box;
 }
 .dropdown {
-  position: relative;
   margin: 16px;
 }
 .menu-button {
@@ -24,7 +23,7 @@
   min-width: 120px;
   z-index: 1;
   display: none;
-  top: 50px;
+  top: 66px;
 }
 .menu-item {
   padding: 16px;
