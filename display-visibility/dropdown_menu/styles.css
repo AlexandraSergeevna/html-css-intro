@@ -3,6 +3,7 @@
 }
 .dropdown {
   margin: 16px;
+  position: relative;
 }
 .menu-button {
   color: white;
@@ -23,7 +24,6 @@
   min-width: 120px;
   z-index: 1;
   display: none;
-  bottom: 0px;
 }
 .menu-item {
   padding: 16px;
