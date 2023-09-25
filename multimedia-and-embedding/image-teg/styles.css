@@ -1,0 +1,28 @@
+.image-container {
+  margin: auto;
+  display: flex;
+
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  background-color: bisque;
+  filter: opacity(0.5);
+  align-items: center;
+}
+.image {
+  position: relative;
+  margin: auto;
+  flex-shrink: 1;
+  flex-grow: 0;
+}
+.image-button {
+  position: absolute;
+  margin-top: 250px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.image-container:hover {
+  filter: opacity(1);
+  cursor: pointer;
+}
