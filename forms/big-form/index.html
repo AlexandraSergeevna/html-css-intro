@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU="
+      crossorigin="anonymous"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .big-form {
+        margin: 32px;
+      }
+      .input-one {
+        display: block;
+        margin: 8px;
+      }
+      .languages {
+        display: inline-block;
+        margin: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <form class="big-form">
+      <input
+        class="input-one"
+        type="text"
+        name="primaryLanguage"
+        value="HTML"
+        disabled
+      />
+      <input class="input-one" type="checkbox" name="agree" unchecked />
+      <input class="input-one" type="text" name="like" readonly />
+      <input
+        class="input-one"
+        type="color"
+        name="favouriteColor"
+        value="#ff7f50"
+      />
+      <input
+        class="input-one"
+        type="date"
+        name="birthTime"
+        value="2021-01-02"
+      />
+      <input
+        class="input-one"
+        type="datetime-local"
+        name="bitrthTime"
+        value="2024-10-04T13:02"
+      />
+      <input
+        class="input-one"
+        type="email"
+        name="email"
+        placeholder="example@domain.com"
+        required
+      />
+      <input class="input-one" type="file" name="avatar" />
+      <input
+        class="input-one"
+        type="month"
+        name="startLearning"
+        value="2020-01"
+      />
+      <input
+        class="input-one"
+        type="number"
+        name="favouriteNumber"
+        value="17"
+      />
+      <textarea
+        class="input-one"
+        name="story5"
+        id=""
+        cols="30"
+        rows="5"
+        placeholder="A long time ago..."
+      ></textarea>
+      <input class="input-one" type="password" value="secret" />
+      <div class="languages">
+        <input type="radio" id="html" name="language" value="html" />
+        <label for="html">HTML</label>
+        <input type="radio" id="css" name="language" value="css" checked />
+        <label for="css">CSS</label>
+        <input
+          type="radio"
+          id="javascript"
+          name="language"
+          value="javascript"
+        />
+        <label for="javascript">JavaScript</label>
+      </div>
+      <input
+        class="input-one"
+        type="range"
+        name="learningProgress"
+        value="30"
+      />
+      <select class="input-one" name="framework">
+        <option value="react">React</option>
+        <option value="jquery" selected>jQuery</option>
+        <option value="bootstrap">Bootstrap</option>
+      </select>
+      <input
+        class="input-one"
+        type="search"
+        name="search"
+        placeholder="Type first letters..."
+      />
+      <input class="input-one" type="time" name="lunchEnd" value="14:01" />
+      <input
+        class="input-one"
+        type="url"
+        name="website"
+        placeholder="https://website.com"
+        required
+      />
+      <input class="input-one" type="week" name="birthWeek" value="2021-W51" />
+      <button class="input-one" type="submit">Save</button>
+    </form>
+  </body>
+</html>
