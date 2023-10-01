@@ -16,7 +16,7 @@
 .rect:hover {
   width: 100%;
   opacity: 1;
-  transition: width 2s opacity 0.5s;
+  transition-duration: 2s;
 }
 .linear {
   transition-timing-function: linear;
