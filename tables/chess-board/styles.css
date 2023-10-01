@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+td {
+  height: 50px;
+  width: 50px;
+  padding: 0;
+  margin: 0;
+}
+tr,
+td {
+  margin: 0;
+  padding: 0;
+
+  border-collapse: collapse;
+}
+table {
+  margin: 16px;
+  text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+tr:nth-child(2n) td:nth-child(2n-1) {
+  background-color: black;
+  border: 1px solid black;
+}
+
+tr:nth-child(2n-1) td:nth-child(2n) {
+  background-color: black;
+  border: 1px solid black;
+}
+tr:nth-child(1) td:nth-child(2n),
+tr:nth-child(10) td:nth-child(2n + 1) {
+  background-color: white;
+  border-right: white;
+  border-left: white;
+}
+
+tr:nth-child(2n) td:nth-child(1),
+tr:nth-child(2n + 1) td:nth-child(10) {
+  background-color: white;
+  border-top: white;
+  border-bottom: white;
+}
