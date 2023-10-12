@@ -19,7 +19,7 @@ html {
   border: none;
   background-color: transparent;
   cursor: pointer;
-  margin: auto;
+  text-align: center;
 }
 .nav-list {
   list-style-type: none;
