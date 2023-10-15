@@ -88,6 +88,10 @@ body {
   .big-photo {
     display: none;
   }
+  .small-photo {
+    display: inline-block;
+    max-width: 100%;
+  }
   .main {
     flex-direction: column;
   }
