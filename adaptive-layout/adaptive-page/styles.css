@@ -77,16 +77,11 @@ body {
   min-height: 100vh;
   margin: 0;
 }
-.photo {
-  display: flex;
-}
+
 .big-photo,
 .small-photo {
   max-width: 100%;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-  max-height: 100%;
-  flex-shrink: 1;
-  padding-bottom: 4px;
 }
 @media screen and (max-width: 599px) {
   .big-photo {
@@ -94,7 +89,6 @@ body {
   }
   .main {
     flex-direction: column;
-    flex-grow: 1;
   }
   .navigation,
   .section,
