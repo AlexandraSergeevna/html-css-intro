@@ -111,8 +111,7 @@ body {
     width: 100vh;
   }
   img {
-    overflow: clip;
-    overflow-clip-margin: border-box;
+    overflow: auto;
   }
 }
 @media screen and (min-width: 1200px) {
