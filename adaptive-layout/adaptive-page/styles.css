@@ -110,6 +110,9 @@ body {
   .news {
     width: 100vh;
   }
+  picture {
+    display: flex;
+  }
 }
 @media screen and (min-width: 1200px) {
   .nav-section {
