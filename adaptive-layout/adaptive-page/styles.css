@@ -110,6 +110,9 @@ body {
   .news {
     width: 100vh;
   }
+  .banner {
+    font-size: 1em;
+  }
 }
 @media screen and (min-width: 1200px) {
   .nav-section {
