@@ -78,19 +78,14 @@ body {
   margin: 0;
 }
 
-.big-photo,
-.small-photo {
-  display: inline-block;
+.banner {
   max-width: 100%;
+  height: auto;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
 @media screen and (max-width: 599px) {
   .big-photo {
     display: none;
-  }
-  .small-photo {
-    display: inline-block;
-    max-width: 100%;
   }
   .main {
     flex-direction: column;
