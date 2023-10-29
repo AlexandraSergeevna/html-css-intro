@@ -42,7 +42,6 @@
   color: black;
 }
 .menu .menu__item {
-  margin-left: 8px;
   margin-right: 8px;
   display: flex;
   align-items: center;
@@ -62,10 +61,6 @@
 html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
-}
-
-.menu__item_active + .menu__item-text {
-  color: yellow;
 }
 
 /*# sourceMappingURL=styles.css.map */
